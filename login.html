@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="login.css" />
+    </head>
+    <body>
+        <div class="login" id="loginBox">
+            <input type="text" placeholder="email을 입력하세요" id="email" />
+            <input type="text" placeholder="비밀번호를 입력하세요" id="pw" />
+
+            <button onclick="onLoggin()">로그인</button>
+        </div>
+
+        <strong class="login-success" id="loginMessage"></strong>
+
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="./axios.js"></script>
+    </body>
+</html>
